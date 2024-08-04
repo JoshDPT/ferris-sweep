@@ -59,8 +59,8 @@
         //│ DELETE   │  END     │ PAGE UP  │ PAGE DN  │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp HOME   &kp END    &kp PG_UP  &kp PG_DN  &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  DELETE  │  INSERT  │          │          │   │          │          │          │          │  :       │
-           &caps_word  &kp DEL    &kp INS     &trans     &trans        &trans     &trans     &trans     &trans     &kp COLON
+        //│ CAPS     │  DELETE  │  INSERT  │          │          │   │ F10      │ F11      │ F12      │          │  :       │
+           &caps_word  &kp DEL    &kp INS     &trans     &trans        &kp F10    &kp F11    &kp F12    &trans     &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
